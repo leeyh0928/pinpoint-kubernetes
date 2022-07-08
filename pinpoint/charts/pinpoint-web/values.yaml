@@ -21,7 +21,7 @@ tolerations: []
 # Configuration for web UI service
 service:
   ui:
-    type: "LoadBalancer"
+    type: "NodePort"
     nodePort:
     clusterIP:
     port: 8080
